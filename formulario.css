@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    background-image: url(imaganempresa.jpg);
+    background-size: cover;
+}
+
+form h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+
+}
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    font-weight: 30px;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav ul{
+   list-style-type: none;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px;
+    font-size: 20px;
+    
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    position: relative;
+}
+
+.submenu{
+    display:none;
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+    text-align: start;
+    
+}
+
+.menu li:hover .submenu{
+    display:block;
+    
+}
+
+.submenu a{
+    gap:10px;
+}
+
+.formulario{
+   padding: 250px 400px;
+   text-align: center;
+}
+
+label{
+    height: 30px;
+}
+
+input:focus{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+input:valid{
+    color:green;
+}
+
+input:invalid{
+    color:red;
+}
+
+.contenedor{
+    
+    padding: 20px 20px;
+}
+
+#boton{
+    width: 50px;
+}
+
+#nombre{
+    height: 25px;
+}
+
+
+#contraseña{
+    height: 25px;
+}
+
+
+#repetircontraseña{
+    height: 25px;
+}
